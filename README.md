@@ -97,16 +97,16 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 1. Clone the repository on your local machine
    ```bash
-   $ git clone https://github.com/Niceural/hardhat-boilerplate-project.git
+   git clone https://github.com/Niceural/hardhat-boilerplate-project.git
    ```
 2. Rename and open the directory
    ```bash
-   $ mv hardhat-boilerplate-project <project-name>
-   $ cd <project-name>
+   mv hardhat-boilerplate-project <project-name>
+   cd <project-name>
    ```
 3. Install the dependencies
    ```bash
-   $ yarn
+   yarn
    ```
 4. Create the source directories
    ```bash
@@ -114,7 +114,7 @@ Use this space to show useful examples of how a project can be used. Additional 
    ```
 5. Populate the `.env` with your own values following `.env.example`
    ```bash
-   $ cp .env.example .env
+   cp .env.example .env
    ```
 6. Check your installation by running
    ```bash
