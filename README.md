@@ -95,6 +95,32 @@
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
+1. Clone the repository on your local machine
+   ```bash
+   $ git clone https://github.com/Niceural/hardhat-boilerplate-project.git
+   ```
+2. Rename and open the directory
+   ```bash
+   $ mv hardhat-boilerplate-project <project-name>
+   $ cd <project-name>
+   ```
+3. Install the dependencies
+   ```bash
+   $ yarn
+   ```
+4. Create the source directories
+   ```bash
+   mkdir contracts deploy scripts test test/unit test/integration
+   ```
+5. Populate the `.env` with your own values following `.env.example`
+   ```bash
+   $ cp .env.example .env
+   ```
+6. Check your installation by running
+   ```bash
+   hh compile
+   ```
+
 _For more examples, please refer to the [Documentation](https://hardhat.org/docs)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -173,7 +199,7 @@ Project Link: [https://github.com/Niceural/hardhat-boilerplate-project](https://
 [license-shield]: https://img.shields.io/github/license/Niceural/hardhat-boilerplate-project.svg?style=for-the-badge
 [license-url]: https://github.com/Niceural/hardhat-boilerplate-project/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: www.linkedin.com/in/nicolas-bayle-558a21200
+[linkedin-url]: https://www.linkedin.com/in/nicolas-bayle-558a21200
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
